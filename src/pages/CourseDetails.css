@@ -1,0 +1,325 @@
+.course-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: purple;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.course-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.course-list li {
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 255, 0.3);
+  color: black;
+  padding-left: 35px;
+}
+
+.course-list li::before {
+  content: "✔️";
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: purple;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.book-now-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.book-now-button:hover {
+  background-color: #45a049;
+}
+
+.testimoniol-video {
+  width: 100%;
+  text-align: center;
+}
+
+.video-container {
+  margin-bottom: 20px;
+}
+
+.video-container video {
+  width: 80%;
+  max-width: 800px;
+}
+
+.feedback-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.feedback-card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card-content {
+  text-align: left;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.age {
+  font-style: italic;
+  color: #777;
+}
+
+.feedback {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #333;
+}
+
+.course-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.book-now-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.book-now-button:hover {
+  background-color: #218838;
+}
+
+.being-satisfied {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.being-satisfied h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.being-satisfied h4 {
+  font-size: 1.3em;
+  color: #555;
+  margin-top: 10px;
+}
+
+.Satisfied-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.Satisfied-list li {
+  margin: 15px 0;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+}
+
+.Satisfied-list li::before {
+  content: "✔";
+  color: #28a745;
+  margin-right: 10px;
+  font-size: 1.3em;
+}
+
+.facilities {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: purple;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.shopSphere { color: #FF6347; }
+.trendyMart { color: #4682B4; }
+.swiftShopper { color: #32CD32; }
+.clickNBuy { color: #FFD700; }
+.ezyCart { color: #8A2BE2; }
+.trendBazaar { color: #FF4500; }
+.shopWagon { color: #2E8B57; }
+.buyNGo { color: #DAA520; }
+
+.urbanBoutique { color: #800080; }
+.primeRetailers { color: #DC143C; }
+.shopOasis { color: #FF1493; }
+.retailStop { color: #4B0082; }
+.luxeCart { color: #8B4513; }
+.marketLane { color: #B22222; }
+.retailHaven { color: #20B2AA; }
+.trendCentral { color: #6495ED; }
+
+.powerHouse { color: #D2691E; }
+.flexZone { color: #A52A2A; }
+.peakPerformance { color: #7FFF00; }
+.fitHub { color: #FF6347; }
+.ironX { color: #00008B; }
+.pulseFitness { color: #FF8C00; }
+.strengthLab { color: #6A5ACD; }
+.coreFit { color: #32CD32; }
+
+.barbersChair { color: #8B0000; }
+.sharpCuts { color: #FF4500; }
+.fadeMasters { color: #2E8B57; }
+.crownClippers { color: #FFD700; }
+.gentlemansGroom { color: #00008B; }
+.classicShave { color: #A52A2A; }
+.razorsEdge { color: #B22222; }
+.eliteBarbers { color: #9932CC; }
+
+.autoGlide { color: #FF6347; }
+.prestigeMotors { color: #4682B4; }
+.driveLine { color: #32CD32; }
+.speedsterShowroom { color: #FFD700; }
+.eliteWheels { color: #8A2BE2; }
+.autoTrend { color: #FF4500; }
+.nextDrive { color: #2E8B57; }
+.rideCity { color: #DAA520; }
+
+.healthFirst { color: #800080; }
+.primeCare { color: #DC143C; }
+.vitalWellness { color: #FF1493; }
+.mediCare { color: #4B0082; }
+.everCare { color: #8B4513; }
+.pathwayMedical { color: #B22222; }
+.brightPath { color: #20B2AA; }
+.wellBeing { color: #6495ED; }
+
+.enrollment-section {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.enrollment-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.enrollment-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.enrollment-list li {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.enrollment-list li:hover {
+  background-color: #ffffff;
+  border-color: #ddd;
+}
+
+.hover-list-item {
+  padding: 10px;
+  font-size: 16px;
+  background: linear-gradient(to right, #FF6347, #FFD700, #32CD32);
+  color: #000;
+  border-radius: 8px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book-now-button {
+  background-color: #ff6347;
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-button:hover {
+  background-color: #ff4500;
+}

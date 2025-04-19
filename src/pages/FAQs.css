@@ -1,0 +1,74 @@
+.faqs {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.faq-question {
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  transition: color 0.3s ease;
+  width: 50%; /* Set width to make it smaller */
+  margin-left: auto; /* Center the question horizontally */
+  margin-right: auto; /* Center the question horizontally */
+  text-align: center; /* Align text in the center */
+}
+
+.faq-answer {
+  font-size: 16px;
+  color: #333;
+  margin-top: 8px; /* A little spacing between question and answer */
+  padding-left: 0px; /* Align answer with the question */
+  margin-left: 0px; /* Optional: Adds a little left margin for alignment */
+}
+
+.dropdown-icon {
+  font-size: 18px;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.dropdown-icon.open {
+  transform: rotate(180deg); /* Rotate the arrow when the dropdown is open */
+}
+
+.enroll-btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.get-started-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #007bff; /* Primary color */
+  color: white;
+}
+
+.get-started-btn:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.enroll-btn {
+  background-color: #28a745; /* Green color */
+  color: white;
+}
+
+.enroll-btn:hover {
+  background-color: #218838; /* Darker shade of green on hover */
+}
